@@ -1,4 +1,4 @@
-# mini-flight-booking-agent
+# flight-booking-agent
 
 > **BTVN#3 — SE373.R11 Kỹ thuật xây dựng hệ thống Agentic AI**  
 > Trường Đại học Công nghệ Thông tin — ĐHQG TP.HCM  
@@ -11,7 +11,7 @@ Agent đặt vé máy bay được xây dựng bằng LangChain / LangGraph vớ
 ## Cấu trúc thư mục
 
 ```
-mini-flight-booking-agent/
+flight-booking-agent/
 ├── flight_agent/
 │   ├── __init__.py
 │   ├── core.py          # Constraints, World, Harness, Scenarios
@@ -40,8 +40,8 @@ mini-flight-booking-agent/
 
 ```bash
 # Clone repo
-git clone https://github.com/hoangpham1006/mini-flight-booking-agent.git
-cd mini-flight-booking-agent
+git clone https://github.com/hoangpham1006/flight-booking-agent.git
+cd flight-booking-agent
 
 # Tạo môi trường ảo
 python -m venv .venv

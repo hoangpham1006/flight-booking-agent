@@ -1,5 +1,5 @@
 [project]
-name = "mini-flight-booking-agent"
+name = "flight-booking-agent"
 version = "1.0.0"
 description = "BTVN#3 - Dựng Agent đặt vé máy bay bằng LangChain & LangGraph (SE373.R11)"
 requires-python = ">=3.11"
