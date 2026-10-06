@@ -43,7 +43,7 @@ def run_plan_execute(
     # ── Step 2: Structured Output Plan Generation (1 LLM call) ───────────────
     harness.before_model_call(prompt_tokens=460)
     plan = [
-        {"step": 1, "tool": "hold_seat",   "args": {"flight_id": flight["flight_id"], "passenger_name": "Nguyen Hung Cuong"}},
+        {"step": 1, "tool": "hold_seat",   "args": {"flight_id": flight["flight_id"], "passenger_name": "Pham Duy Hoang"}},
         {"step": 2, "tool": "pay_booking", "args": {"hold_id": "$hold_id", "amount": flight["price"], "auth_token": scen["auth_token"]}},
     ]
     harness.after_model_call(completion_tokens=130)

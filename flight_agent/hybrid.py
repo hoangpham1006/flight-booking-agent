@@ -53,7 +53,7 @@ def run_hybrid(
         # Hold
         hold_res = harness.execute_tool(world, "hold_seat", {
             "flight_id": flight["flight_id"],
-            "passenger_name": "Nguyen Hung Cuong",
+            "passenger_name": "Pham Duy Hoang",
         })
         if hold_res.get("status") != "SUCCESS":
             replan_count += 1

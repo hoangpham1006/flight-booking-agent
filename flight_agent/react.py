@@ -47,7 +47,7 @@ def run_react(
     harness.before_model_call(prompt_tokens=1_180)
     hold_res = harness.execute_tool(world, "hold_seat", {
         "flight_id": flight["flight_id"],
-        "passenger_name": "Nguyen Hung Cuong",
+        "passenger_name": "Pham Duy Hoang",
     })
     harness.after_model_call(completion_tokens=260)
 

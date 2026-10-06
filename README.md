@@ -2,7 +2,7 @@
 
 > **BTVN#3 — SE373.R11 Kỹ thuật xây dựng hệ thống Agentic AI**  
 > Trường Đại học Công nghệ Thông tin — ĐHQG TP.HCM  
-> **Người thực hiện:** Nguyễn Hùng Cường — 23520201
+> **Người thực hiện:** Phạm Duy Hoàng — 23520537
 
 Agent đặt vé máy bay được xây dựng bằng LangChain / LangGraph với 3 mẫu thiết kế và 4 lớp Harness bảo vệ an toàn.
 
